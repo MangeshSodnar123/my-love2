@@ -28,7 +28,7 @@ class Config(object):
 
     ABOUT_HELP_TEXT = """<b>👨‍💻 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : <a href='https://t.me/Aks_support01_bot'>@Aks_support01_bot</a>
 
-If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
+𝙸𝚏 𝚈𝚘𝚞 𝚆𝚊𝚗𝚝 𝚈𝚘𝚞𝚛 𝙾𝚠𝚗 𝙱𝚘𝚝 𝙻𝚒𝚔𝚎 𝚃𝚑𝚒𝚜 𝚃𝚑𝚎𝚗 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝙾𝚞𝚛 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛.</b>
 """
 
     HOME_TEXT = """
