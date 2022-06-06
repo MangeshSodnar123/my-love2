@@ -28,11 +28,11 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://telegra.ph/file/0ebe9c9eb02d9eed7585f.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("'𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="http://t.me/Mdisk_Searcherbot?startgroup=true")],
+                                    [InlineKeyboardButton("𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="http://t.me/Mdisk_Searcherbot?startgroup=true")],
                                     [InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/technicalaks1"),
                                      InlineKeyboardButton("𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/technicalaks33")],
                                     [InlineKeyboardButton("𝙷𝙴𝙻𝙿", callback_data="Help_msg"),
-                                     InlineKeyboardButton("𝙰𝚋𝚘𝚞𝚝", callback_data="About_msg")]]))
+                                     InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data="About_msg")]]))
 
 @Bot.on_message(filters.private & filters.command("help"))
 async def help_handler(_, event: Message):
