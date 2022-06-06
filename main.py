@@ -113,7 +113,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
                                         [
-						InlineKeyboardButton("𝙷𝙴𝙿𝙻", callback_data="Help_msg"),
+						InlineKeyboardButton("𝙷𝙴𝙻𝙿", callback_data="Help_msg"),
 						InlineKeyboardButton("𝙰𝚋𝚘𝚞𝚝", callback_data="About_msg")
 					],
 					[
