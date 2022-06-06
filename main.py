@@ -1,4 +1,4 @@
-# (c) @RoyalKrrishna
+# (c) @@Aks_support01_bot
 
 from configs import Config
 from pyrogram import Client, filters, idle
@@ -25,22 +25,22 @@ User = Client(
 
 @Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(_, event: Message):
-	await event.reply_photo("https://telegra.ph/file/165941ae764a56d6d9c89.jpg",
+	await event.reply_photo("https://telegra.ph/file/250637265ef035096bbd4.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("Our Channel", url="https://t.me/iP_Movies"),
-                                     InlineKeyboardButton("Our Group", url="https://t.me/iPopcornMovieGroup")],
-                                    [InlineKeyboardButton("Help", callback_data="Help_msg"),
-                                     InlineKeyboardButton("About", callback_data="About_msg")]]))
+                                    [InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/technicalaks1"),
+                                     InlineKeyboardButton("𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/technicalaks33")],
+                                    [InlineKeyboardButton("𝙷𝙴𝙿𝙻", callback_data="Help_msg"),
+                                     InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data="About_msg")]]))
 
 @Bot.on_message(filters.private & filters.command("help"))
 async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Our Channel", url="https://t.me/iP_Movies"),
-             InlineKeyboardButton("Our Group", url="https://t.me/iPopcornMovieGroup"), 
-             InlineKeyboardButton("About", callback_data="About_msg")]
+            [InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/technicalaks1"),
+             InlineKeyboardButton("𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/technicalaks33"), 
+             InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data="About_msg")]
         ])
     )
 
@@ -77,12 +77,12 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Our Channel", url="https://t.me/iP_Movies"),
-						InlineKeyboardButton("Our Group", url="https://t.me/iPopcornMovieGroup")
+						InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://technicalaks1"),
+						InlineKeyboardButton("𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/technicalaks33")
 					],
 					[
-						InlineKeyboardButton("Developer", url="https://t.me/RoyalKrrishna"),
-						InlineKeyboardButton("Home", callback_data="gohome")
+						InlineKeyboardButton("𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛", url="https://t.me/Aks_support01_bot"),
+						InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="gohome")
 					]
 				]
 			),
@@ -95,12 +95,12 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("About", callback_data="About_msg"),
-						InlineKeyboardButton("Our Channel", url="https://t.me/iP_Movies")
+						InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data="About_msg"),
+						InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/technicalaks1")
 					], 
                                         [
-						InlineKeyboardButton("Owner", url="https://t.me/RoyalKrrishna"),
-						InlineKeyboardButton("Home", callback_data="gohome")
+						InlineKeyboardButton("𝙾𝚆𝙽𝙴𝚁", url="https://t.me/RoyalKrrishna"),
+						InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="gohome")
 					]
 				]
 			),
@@ -113,12 +113,12 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
                                         [
-						InlineKeyboardButton("Help", callback_data="Help_msg"),
-						InlineKeyboardButton("About", callback_data="About_msg")
+						InlineKeyboardButton("𝙷𝙴𝙿𝙻", callback_data="Help_msg"),
+						InlineKeyboardButton("𝙰𝚋𝚘𝚞𝚝", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/RoyalKrrishna"),
-						InlineKeyboardButton("Channel", url="https://t.me/iP_Movies")
+						InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/Imdb_updates"),
+						InlineKeyboardButton("𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/technicalaks1")
 					]
 				]
 			),
