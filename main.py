@@ -99,7 +99,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/technicalaks1")
 					], 
                                         [
-						InlineKeyboardButton("𝙾𝚆𝙽𝙴𝚁", url="https://t.me/RoyalKrrishna"),
+						InlineKeyboardButton("𝙾𝚆𝙽𝙴𝚁", url="https://t.me/Aks_support01_bot"),
 						InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="gohome")
 					]
 				]
