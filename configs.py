@@ -1,4 +1,4 @@
-# (c) @RoyalKrrishna
+# (c) @Aks_support01_bot
 
 import os
 
@@ -15,41 +15,41 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
-🤖 My Name: <a href='https://t.me/RoyalKrrishna'>Mdisk Search Robot</a>
+🤖 𝙼𝚈 𝙽𝙰𝙼𝙴: <a href='https://t.me/Mdisk_Searcherbot'>Mdisk Searcherbot</a>
 
-📝 Language : <a href='https://www.python.org'> Python V3</a>
+📝 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <a href='https://www.python.org'> Python V3</a>
 
-📚 Library: <a href='https://docs.pyrogram.org'> Pyrogram</a>
+📚 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: <a href='https://docs.pyrogram.org'> Pyrogram</a>
 
-📡 Server: <a href='https://heroku.com'>Heroku</a>
+📡 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 Created By: <a href='https://t.me/RoyalKrrishna'>@RoyalKrrishna</a></b>
+👨‍💻 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈: <a href='https://t.me/Aks_support01_bot'>@Aks_support01_bot</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/RoyalKrrishna'>@RoyalKrrishna</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : <a href='https://t.me/Aks_support01_bot'>@Aks_support01_bot</a>
 
 If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
 """
 
     HOME_TEXT = """
-<b>Hey! {}😅,
+<b>𝙷𝚎𝚢 𝙱𝚛𝚘! {}😅,
 
-I'm Mdisk Search Robot.🤖</a>
+𝙸'𝚖 𝙼𝚍𝚒𝚜𝚔 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝.🤖</a>
 
-I Can Search 🔍 What You Want❗
+𝙸 𝙲𝚊𝚗 𝚂𝚎𝚊𝚛𝚌𝚑 🔍 𝚆𝚑𝚊𝚝 𝚈𝚘𝚞 𝚆𝚊𝚗𝚝❗
 
-<a>Made With ❤ By @RoyalKrrishna</a></b>
+<a>𝙼𝚊𝚍𝚎 𝚆𝚒𝚝𝚑 ❤ By @Aks_support01_bot</a></b>
 """
 
 
     START_MSG = """
-<b>Hey! {}😅,
+<b>𝙷𝚎𝚢 𝙱𝚛𝚘! {}😅,
 
-I'm Mdisk Search Robot.🤖</a>
+𝙸'𝚖 𝙼𝚍𝚒𝚜𝚔 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝.🤖</a>
 
-I Can Search 🔍 What You Want❗
+𝙸 𝙲𝚊𝚗 𝚂𝚎𝚊𝚛𝚌𝚑 🔍 𝚆𝚑𝚊𝚝 𝚈𝚘𝚞 𝚆𝚊𝚗𝚝❗
 
-<a>Made With ❤ By @RoyalKrrishna</a></b>
+<a>Made With ❤ By @Aks_support01_bot</a></b>
 """
 
 
