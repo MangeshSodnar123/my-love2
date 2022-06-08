@@ -14,7 +14,6 @@ class Config(object):
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
-
 🤖 𝙼𝚈 𝙽𝙰𝙼𝙴: <a href='https://t.me/InlineSearch_MovieBot'>Search Bot</a>
 
 📝 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <a href='https://www.python.org'> Python V3</a>
