@@ -1,4 +1,4 @@
-# (c) @Aks_support01_bot
+# (c) @PAY_FOR_BOTS
 
 import os
 
@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
-🤖 𝙼𝚈 𝙽𝙰𝙼𝙴: <a href='https://t.me/Mdisk_Searcherbot'>Mdisk Searcherbot</a>
+🤖 𝙼𝚈 𝙽𝙰𝙼𝙴: <a href='https://t.me/InlineSearch_MovieBot'>Search Bot</a>
 
 📝 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <a href='https://www.python.org'> Python V3</a>
 
@@ -23,10 +23,10 @@ class Config(object):
 
 📡 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈: <a href='https://t.me/Aks_support01_bot'>@Aks_support01_bot</a></b>
+👨‍💻 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈: <a href='https://t.me/PAY_FOR_BOTS'>Bot Saler</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : <a href='https://t.me/Aks_support01_bot'>@Aks_support01_bot</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : <a href='https://t.me/kingBadsha3232'>Badsha Studios</a>
 
 𝙸𝚏 𝚈𝚘𝚞 𝚆𝚊𝚗𝚝 𝚈𝚘𝚞𝚛 𝙾𝚠𝚗 𝙱𝚘𝚝 𝙻𝚒𝚔𝚎 𝚃𝚑𝚒𝚜 𝚃𝚑𝚎𝚗 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝙾𝚞𝚛 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛.</b>
 """
@@ -34,11 +34,12 @@ class Config(object):
     HOME_TEXT = """
 <b>𝙷𝚎𝚢 𝙱𝚛𝚘! {}🤗,
 
-𝙸'𝚖 𝙼𝚍𝚒𝚜𝚔 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝.🤖</a>
+𝙸'𝚖 Link 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝.🤖</a>
 
-𝙸 𝙲𝚊𝚗 𝚂𝚎𝚊𝚛𝚌𝚑 🔍 𝚆𝚑𝚊𝚝 𝚈𝚘𝚞 𝚆𝚊𝚗𝚝❗
+𝙸 𝙲𝚊𝚗 𝚂𝚎𝚊𝚛𝚌𝚑 🔍 Lot Of Movie Links❗
+You Can Also Add Me In Your Group ☺️ 
 
-<a>𝙼𝚊𝚍𝚎 𝚆𝚒𝚝𝚑 ❤ By @Aks_support01_bot</a></b>
+<a>𝙼𝚊𝚍𝚎 𝚆𝚒𝚝𝚑 ❤ By @Badsha_Studios</a></b>
 """
 
 
@@ -47,9 +48,10 @@ class Config(object):
 
 𝙸'𝚖 𝙼𝚍𝚒𝚜𝚔 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝.🤖</a>
 
-𝙸 𝙲𝚊𝚗 𝚂𝚎𝚊𝚛𝚌𝚑 🔍 𝚆𝚑𝚊𝚝 𝚈𝚘𝚞 𝚆𝚊𝚗𝚝❗
+𝙸 𝙲𝚊𝚗 𝚂𝚎𝚊𝚛𝚌𝚑 🔍 Lot Of Movie Links❗
+You Can Also Add Me In Your Group ☺️ 
 
-<a>Made With ❤ By @Aks_support01_bot</a></b>
+<a>Made With ❤ By @Badsha_Studios</a></b>
 """
 
 
