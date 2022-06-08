@@ -25,7 +25,7 @@ User = Client(
 
 @Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(_, event: Message):
-	await event.reply_photo("https://telegra.ph/file/0ebe9c9eb02d9eed7585f.jpg",
+	await event.reply_photo("https://telegra.ph/file/2ae987074eca671a20587.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
                                     [InlineKeyboardButton("𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="http://t.me/InlineSearch_MovieBot?startgroup=true")],
