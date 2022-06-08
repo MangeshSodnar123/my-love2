@@ -28,9 +28,9 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://telegra.ph/file/0ebe9c9eb02d9eed7585f.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="http://t.me/Mdisk_Searcherbot?startgroup=true")],
-                                    [InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/technicalaks1"),
-                                     InlineKeyboardButton("𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/technicalaks33")],
+                                    [InlineKeyboardButton("𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="http://t.me/InlineSearch_MovieBot?startgroup=true")],
+                                    [InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/Badsha_Studios"),
+                                     InlineKeyboardButton("𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/Badsha_OTT")],
                                     [InlineKeyboardButton("𝙷𝙴𝙻𝙿", callback_data="Help_msg"),
                                      InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data="About_msg")]]))
 
@@ -39,8 +39,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/technicalaks1"),
-             InlineKeyboardButton("𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/technicalaks33"), 
+            [InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/Badsha_Studios"),
+             InlineKeyboardButton("𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/Badsha_OTT"), 
              InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data="About_msg")]
         ])
     )
@@ -78,11 +78,11 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://technicalaks1"),
-						InlineKeyboardButton("𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/technicalaks33")
+						InlineKeyboardButton("𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/Badsha_Studios"),
+						InlineKeyboardButton("𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/Badsha_OTT")
 					],
 					[
-						InlineKeyboardButton("𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛", url="https://t.me/Aks_support01_bot"),
+						InlineKeyboardButton("𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛", url="https://t.me/PAY_FOR_BOTS"),
 						InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="gohome")
 					]
 				]
@@ -97,10 +97,10 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data="About_msg"),
-						InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/Imdb_updates")
+						InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/Badsha_Studios")
 					], 
                                         [
-						InlineKeyboardButton("𝙾𝚆𝙽𝙴𝚁", url="https://t.me/Aks_support01_bot"),
+						InlineKeyboardButton("𝙾𝚆𝙽𝙴𝚁", url="https://t.me/kingBadsha3232"),
 						InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="gohome")
 					]
 				]
@@ -118,8 +118,8 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("𝙰𝚋𝚘𝚞𝚝", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/Imdb_updates"),
-						InlineKeyboardButton("𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/technicalaks1")
+						InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/PAY_FOR_BOTS"),
+						InlineKeyboardButton("𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/Badsha_Studios")
 					]
 				]
 			),
