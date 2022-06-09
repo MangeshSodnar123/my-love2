@@ -8,7 +8,7 @@
         "search",
         "bot"
     ],
-    "repository": "https://github.com//MessageSearchBot",
+    "repository": "https://github.com/MangeshSodnar123/MessageSearchBot",
     "website": "https://telegram.dog/RoyalKrrishna",
     "success_url": "https://t.me/mdisksearchroBot",
     "env": {
